@@ -1,0 +1,48 @@
+.product {
+  font-size: 16px;
+  width: 100%;
+  height: auto;
+  padding: 0 3.5625em;
+  display: flex;
+}
+
+.product-description {
+  width: 50%;
+  height: auto;
+}
+
+.product-images {
+  width: 50%;
+  height: auto;
+}
+
+.main-image {
+  max-width: 616px;
+  max-height: 620px;
+}
+
+.main-image img {
+  width: 100%;
+}
+
+.row-small_images {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cont-small_image {
+  width: calc(100% / 4.5);
+  height: calc(100% / 4.5);
+  max-width: 139px;
+  max-height: 139px;
+}
+
+.cont-small_image img {
+  width: 100%;
+}
+
+/* Below start description and bottom to add product */
