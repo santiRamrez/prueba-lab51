@@ -7,6 +7,11 @@
     <link rel="stylesheet" type="text/css" href="./styles/setting.css" />
     <link rel="stylesheet" type="text/css" href="./styles/nav.css" />
     <link rel="stylesheet" type="text/css" href="./styles/main-product.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./styles/main-product-info.css"
+    />
 
     <title>Macbook Pro 13" - Lab 51</title>
   </head>
@@ -39,9 +44,138 @@
             </div>
           </div>
         </section>
-        <section class="product-description"></section>
+        <section class="product-description">
+          <form class="form">
+            <h1 class="product-name">Macbook Pro 13” - 16gb - 1TB</h1>
+            <p class="product-brand">Apple</p>
+            <p class="product-price">
+              $<span id="productPrice">1.250.000</span>
+            </p>
+            <p class="stock">
+              Quedan solo <span id="productStock">2 unidades</span>
+            </p>
+            <div class="colors">
+              <p>Colores</p>
+              <input
+                id="blueColor"
+                name="colorProduct"
+                type="radio"
+                value="azul"
+              />
+              <label class="blue-color" for="blueColor">Azul</label>
+
+              <input
+                id="greenColor"
+                name="colorProduct"
+                type="radio"
+                value="verde"
+              />
+              <label class="green-color" for="greenColor">Verde</label>
+
+              <input
+                id="grayColor"
+                name="colorProduct"
+                type="radio"
+                value="gris"
+              />
+              <label class="gray-color" for="grayColor">Gris</label>
+
+              <input
+                id="blackColor"
+                name="colorProduct"
+                type="radio"
+                value="negro"
+              />
+              <label class="black-color" for="blackColor">Negro</label>
+            </div>
+            <div class="sizes">
+              <p>Tamaño</p>
+              <input
+                id="sizeSmall"
+                name="sizeProduct"
+                type="radio"
+                value="small"
+              />
+              <label for="sizeSmall" class="cont-size">40 x 40 cm</label>
+
+              <input
+                id="sizeMedium"
+                name="sizeProduct"
+                type="radio"
+                value="medium"
+              />
+              <label for="sizeMedium" class="cont-size">40 x 60 cm</label>
+
+              <input id="sizeBig" name="sizeProduct" type="radio" value="big" />
+              <label for="sizeBig" class="cont-size">40 x 80 cm</label>
+            </div>
+            <div class="qty">
+              <div class="cont-select_qty">
+                <button class="btn" id="subtractQty">-</button>
+                <input
+                  id="productUnits"
+                  name="productUnit"
+                  type="text"
+                  value="1"
+                  required
+                />
+                <label for="productUnits" class="inp-hidden"></label>
+                <button class="btn" id="addQty">+</button>
+              </div>
+              <button id="addToCart">AGREGAR AL CARRO</button>
+            </div>
+          </form>
+          <div class="product-info">
+            <h2>Descripción</h2>
+            <p class="info info-description">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+              consequat. Duis autem vel eum iriure dolor in hendrerit in
+              vulputate velit esse molestie consequat.
+            </p>
+            <h2>Características Técnicas</h2>
+            <p class="info info-datasheet">
+              <span
+                >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.</span
+              >
+              <ul class="info-details">
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Sed id turpis a nibh viverra commodo.</li>
+                <li>Cras posuere ligula ac velit mattis, in lobortis mauris luctus.</li>
+                <li>Aliquam vulputate tortor eu dolor viverra iaculis..</li>
+              </ul>
+            </p>
+          </div>
+          <div class="accordion">
+            <h2 class="acc">Medios de Pago</h2>
+          
+              <ul class="acc-content">
+                <p>Cta Corriente XXXX</p>
+                <p>Banco El Billetón</p>
+                <p>Beneficiario: Mc Pato</p>
+                <p>R.U.T 1.234.567-9</p>
+              </ul>
+         
+            <h2 class="acc">Tiempo de Despacho</h2>
+          
+              <div class="acc-content">
+                <p>Cuando Dios diga</p>
+              </div>
+          
+            <h2 class="acc">Cambios y Devoluciones</h2>
+            
+              <div class="acc-content">
+                <p>Diga la verdad estimado cliente, usted lo dañó</p>
+              </div>
+            
+          </div>
+        </section>
       </main>
     </div>
-    <script src=""></script>
+    <script src="./js/accordion.js"></script>
   </body>
 </html>
