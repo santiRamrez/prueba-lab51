@@ -1,0 +1,102 @@
+.cont-otherProducts {
+  font-size: 16px;
+  width: 100%;
+  height: auto;
+  background-color: #e8e8e8;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5625em 1em;
+}
+.cont-caption {
+  width: 18.625em;
+  height: 11.1875em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cont-caption h4 {
+  font-size: 1.5em;
+}
+.cont-caption p {
+  font-size: 0.75em;
+  line-height: 22px;
+}
+.cont-caption button {
+  font-size: 14px;
+  width: 100%;
+  height: 45px;
+  background-color: #0071bc;
+  color: #fff;
+  border: 1.1px solid #0071bc;
+}
+
+.productCard {
+  width: calc(100% / 5);
+  max-width: 218px;
+  max-height: 291px;
+  margin: 0 0.5em;
+}
+
+.cont-imageCard {
+  max-width: 218px;
+  max-height: 218px;
+  width: 100%;
+}
+
+.cont-imageCard img {
+  width: 100%;
+}
+
+.cont-infoCard {
+  width: 100%;
+  height: 73px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textCard {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textCard h4 {
+  font-size: 16px;
+}
+
+.textCard p {
+  font-size: 12px;
+}
+
+.textCard p span {
+  font-size: 8px;
+  text-decoration-line: line-through;
+}
+
+.iconAddToCar {
+  width: 30px;
+  height: 30px;
+  background-color: #0071bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 905px) {
+  .cont-otherProducts {
+    flex-direction: column;
+  }
+  .productCard {
+    width: auto;
+  }
+}
