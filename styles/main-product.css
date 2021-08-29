@@ -112,7 +112,6 @@
 
 .blue-color::after {
   content: " ";
-  z-index: -1;
   position: absolute;
   top: 50px;
   left: 7px;
@@ -371,6 +370,5 @@
 }
 
 #addToCart:focus {
-  border: 2px solid #0071bc;
-  background-color: #71a2e5;
+  border: 2px solid #000;
 }

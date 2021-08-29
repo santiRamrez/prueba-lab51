@@ -1,0 +1,65 @@
+.product-info {
+  font-size: 16px;
+  margin-top: 2.0625em;
+}
+
+.product-info h2 {
+  font-size: 1.125em;
+}
+
+.info {
+  margin: 1em 0;
+}
+
+.info-details {
+  padding-left: 1em;
+  line-height: 1.75em;
+}
+
+.info-details li {
+  font-size: 0.875em;
+}
+
+.accordion {
+  padding: 1.5em 0;
+  width: 100%;
+  height: auto;
+}
+
+.accordion .acc-content {
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.accordion .acc-content p {
+  padding: 0.6em 0.4em;
+}
+
+.active,
+.acc {
+  font-size: 1.125em;
+  padding: 1.5em 0;
+  border-bottom: 1px solid #666666;
+  cursor: pointer;
+  width: 100%;
+}
+
+.acc:hover {
+  background-color: #f1f1f1;
+}
+
+.active,
+.acc:after {
+  content: "\002B";
+  color: #000;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.active:after {
+  content: "\2212";
+}

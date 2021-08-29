@@ -1,0 +1,83 @@
+@media (max-width: 856px) {
+  nav {
+    font-size: 12px;
+    padding: 0 16px;
+    max-height: 4em;
+  }
+  .product {
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-images {
+    width: 100%;
+    max-width: 616px;
+  }
+  .product-description {
+    margin-top: 16px;
+    width: 100%;
+    max-width: 616px;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 496px) {
+  .form {
+    font-size: 12px;
+  }
+  .product-name {
+    font-size: 2em;
+  }
+  .blue-color::after {
+    top: 30px;
+    left: 2px;
+  }
+  .blue-color::before {
+    top: 40px;
+    left: -15px;
+  }
+  .green-color::after {
+    top: 30px;
+    left: 2px;
+  }
+  .green-color::before {
+    top: 40px;
+    left: -15px;
+  }
+  .gray-color::after {
+    top: 30px;
+    left: 2px;
+  }
+  .gray-color::before {
+    top: 40px;
+    left: -15px;
+  }
+  .black-color::after {
+    top: 30px;
+    left: 2px;
+  }
+  .black-color::before {
+    top: 40px;
+    left: -15px;
+  }
+  .sizes {
+    width: 26em;
+    position: relative;
+  }
+  .sizes input {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    opacity: 0;
+  }
+  .product-info p,
+  .product-info h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .showSidebar {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}

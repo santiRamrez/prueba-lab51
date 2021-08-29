@@ -1,0 +1,73 @@
+.sidebar {
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background-color: #fff;
+  transition: all 0.3s ease-out;
+}
+
+.showSidebar {
+  width: 25.6875em;
+}
+
+.btn-list {
+  position: absolute;
+  top: 1.875em;
+  right: 1.875em;
+  width: 1.875em;
+  height: 1.875em;
+  background-color: transparent;
+  border: none;
+  outline: inherit;
+  padding: 0;
+  float: right;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.btn-list img {
+  width: 100%;
+}
+
+.cont-added_items {
+  width: 18.625em;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 3.1875em;
+}
+
+.cont-added_items h3 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.item {
+  height: 5.3125em;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.item .cont-details {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item .cont-image {
+  width: 30%;
+  height: 100%;
+  max-width: 85px;
+  max-height: 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
